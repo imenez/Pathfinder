@@ -1,0 +1,66 @@
+<LinearLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etadres"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="serif"
+            android:hint="Adres Giriniz "
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/bara"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:onClick="Ara"
+            android:text="Ara" />
+
+        <Button
+            android:id="@+id/bekle"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Ekle" />
+
+
+        <Button
+            android:id="@+id/btip"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:onClick="Tip"
+            android:text="ROTA" />
+
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="370dp"
+        android:layout_height="469dp"
+        tools:context="com.example.imenez.mapsactivity.MapsActivity" />
+
+    <ZoomControls
+
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zoom"/>
+
+
+</LinearLayout>
