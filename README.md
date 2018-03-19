@@ -31,7 +31,7 @@ Scriptler veritabanı ile uygulama arasında işlemler için kullanılmıştır.
 [insertdistance.php](http://s000.tinyupload.com/download.php?file_id=09245574105673796651&t=0924557410567379665151965)
 [showlocation.php](http://s000.tinyupload.com/download.php?file_id=02478042570396463714&t=0247804257039646371474851)
 [showlocation2.php](http://s000.tinyupload.com/download.php?file_id=98475889323652126694&t=9847588932365212669461679)
-[truncate.php](http://s000.tinyupload.com/download.php?file_id=91118462329096155342&t=9111846232909615534209791)
+[truncate.php](http://s000.tinyupload.com/download.php?file_id=91118462329096155342&t=9111846232909615534239590)
 
 
 
